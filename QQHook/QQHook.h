@@ -10,4 +10,8 @@
 
 @interface QQHook : NSObject
 
++ (NSArray*) searchNickNameWithKey: (NSString*) key;
++ (void) showAioWithContact: (id) item;
++ (NSString*) avatarPathWithItem: (id) item;
+
 @end

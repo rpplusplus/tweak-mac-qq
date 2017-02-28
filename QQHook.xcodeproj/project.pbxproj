@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0484FE961E5DC96600582C95 /* GlobalData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0484FE941E5DC96600582C95 /* GlobalData.h */; };
+		0484FE971E5DC96600582C95 /* GlobalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484FE951E5DC96600582C95 /* GlobalData.m */; };
 		04A76A9B1E5B330C00DA2814 /* QQHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A76A9A1E5B330C00DA2814 /* QQHook.h */; };
 		04A76A9D1E5B330C00DA2814 /* QQHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A76A9C1E5B330C00DA2814 /* QQHook.m */; };
+		04A76AA51E5B333800DA2814 /* NSObject+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A76AA31E5B333800DA2814 /* NSObject+Hook.h */; };
+		04A76AA61E5B333800DA2814 /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A76AA41E5B333800DA2814 /* NSObject+Hook.m */; };
+		04A76AA91E5B33CD00DA2814 /* NSArray+funcational.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A76AA71E5B33CD00DA2814 /* NSArray+funcational.h */; };
+		04A76AAA1E5B33CD00DA2814 /* NSArray+funcational.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A76AA81E5B33CD00DA2814 /* NSArray+funcational.m */; };
+		2BEBEAC4D0DA6A2DDED7017C /* libPods-QQHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE5F705AB0483697217A876 /* libPods-QQHook.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0484FE941E5DC96600582C95 /* GlobalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalData.h; sourceTree = "<group>"; };
+		0484FE951E5DC96600582C95 /* GlobalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalData.m; sourceTree = "<group>"; };
 		04A76A971E5B330C00DA2814 /* libQQHook.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libQQHook.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A76A9A1E5B330C00DA2814 /* QQHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQHook.h; sourceTree = "<group>"; };
 		04A76A9C1E5B330C00DA2814 /* QQHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQHook.m; sourceTree = "<group>"; };
+		04A76AA31E5B333800DA2814 /* NSObject+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Hook.h"; sourceTree = "<group>"; };
+		04A76AA41E5B333800DA2814 /* NSObject+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Hook.m"; sourceTree = "<group>"; };
+		04A76AA71E5B33CD00DA2814 /* NSArray+funcational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+funcational.h"; sourceTree = "<group>"; };
+		04A76AA81E5B33CD00DA2814 /* NSArray+funcational.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+funcational.m"; sourceTree = "<group>"; };
+		1254308DFF06D23A3F3AE5D2 /* Pods-QQHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQHook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQHook/Pods-QQHook.debug.xcconfig"; sourceTree = "<group>"; };
+		65B5263F154D1CE758B114BC /* Pods-QQHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQHook.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQHook/Pods-QQHook.release.xcconfig"; sourceTree = "<group>"; };
+		ABE5F705AB0483697217A876 /* libPods-QQHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQHook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BEBEAC4D0DA6A2DDED7017C /* libPods-QQHook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +50,8 @@
 			children = (
 				04A76A991E5B330C00DA2814 /* QQHook */,
 				04A76A981E5B330C00DA2814 /* Products */,
+				6DB01598C3299A66E264DD62 /* Pods */,
+				AD30F256BA5A064871FBD128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,8 +68,31 @@
 			children = (
 				04A76A9A1E5B330C00DA2814 /* QQHook.h */,
 				04A76A9C1E5B330C00DA2814 /* QQHook.m */,
+				0484FE941E5DC96600582C95 /* GlobalData.h */,
+				0484FE951E5DC96600582C95 /* GlobalData.m */,
+				04A76AA31E5B333800DA2814 /* NSObject+Hook.h */,
+				04A76AA41E5B333800DA2814 /* NSObject+Hook.m */,
+				04A76AA71E5B33CD00DA2814 /* NSArray+funcational.h */,
+				04A76AA81E5B33CD00DA2814 /* NSArray+funcational.m */,
 			);
 			path = QQHook;
+			sourceTree = "<group>";
+		};
+		6DB01598C3299A66E264DD62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1254308DFF06D23A3F3AE5D2 /* Pods-QQHook.debug.xcconfig */,
+				65B5263F154D1CE758B114BC /* Pods-QQHook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD30F256BA5A064871FBD128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE5F705AB0483697217A876 /* libPods-QQHook.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,6 +103,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A76A9B1E5B330C00DA2814 /* QQHook.h in Headers */,
+				0484FE961E5DC96600582C95 /* GlobalData.h in Headers */,
+				04A76AA51E5B333800DA2814 /* NSObject+Hook.h in Headers */,
+				04A76AA91E5B33CD00DA2814 /* NSArray+funcational.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A76AA01E5B330C00DA2814 /* Build configuration list for PBXNativeTarget "QQHook" */;
 			buildPhases = (
+				90B267C5020467F80E284FFE /* [CP] Check Pods Manifest.lock */,
 				04A76A931E5B330C00DA2814 /* Sources */,
 				04A76A941E5B330C00DA2814 /* Frameworks */,
 				04A76A951E5B330C00DA2814 /* Headers */,
+				E75FCE2FC8FFF78DFA28D43C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -116,12 +163,48 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90B267C5020467F80E284FFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E75FCE2FC8FFF78DFA28D43C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQHook/Pods-QQHook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A76A931E5B330C00DA2814 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A76AA61E5B333800DA2814 /* NSObject+Hook.m in Sources */,
 				04A76A9D1E5B330C00DA2814 /* QQHook.m in Sources */,
+				0484FE971E5DC96600582C95 /* GlobalData.m in Sources */,
+				04A76AAA1E5B33CD00DA2814 /* NSArray+funcational.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +300,7 @@
 		};
 		04A76AA11E5B330C00DA2814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1254308DFF06D23A3F3AE5D2 /* Pods-QQHook.debug.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -227,6 +311,7 @@
 		};
 		04A76AA21E5B330C00DA2814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B5263F154D1CE758B114BC /* Pods-QQHook.release.xcconfig */;
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -254,6 +339,7 @@
 				04A76AA21E5B330C00DA2814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
